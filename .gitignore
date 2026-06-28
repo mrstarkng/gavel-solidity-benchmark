@@ -1,0 +1,6 @@
+local_workspace/
+solidity_sources/
+results/
+artifacts/local/
+*.log
+.DS_Store
