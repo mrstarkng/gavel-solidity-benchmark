@@ -1,0 +1,82 @@
+project_slug,vuln_rows,safe_rows,total_rows,source_sets,source_row_count_v0,source_row_count_v2,source_phase_or_files,source_files_referenced
+2021-04-basedloans,3,3,6,v2,0,6,Phase 2S,code/contracts/Comptroller.sol;code/contracts/UniswapOracle/UniswapConfig.sol
+2021-04-marginswap,4,3,7,v2,0,7,Phase 2R,contracts/BaseLending.sol;contracts/CrossMarginAccounts.sol;contracts/CrossMarginTrading.sol;contracts/MarginRouter.sol
+2021-04-meebits,4,3,7,v2,0,7,Phase 2S,Beebots.sol
+2021-04-vader,4,4,8,v2,0,8,Phase 2Q,vader-protocol/contracts/Pools.sol;vader-protocol/contracts/Router.sol;vader-protocol/contracts/USDV.sol;vader-protocol/contracts/Utils.sol
+2021-05-88mph,2,4,6,v2,0,6,Phase 2S,contracts/DInterest.sol;contracts/rewards/MPHMinter.sol;contracts/rewards/Vesting02.sol
+2021-05-nftx,4,3,7,v2,0,7,Phase 2R,nftx-protocol-v2/contracts/solidity/NFTXEligiblityManager.sol;nftx-protocol-v2/contracts/solidity/NFTXFeeDistributor.sol;nftx-protocol-v2/contracts/solidity/NFTXLPStaking.sol;nftx-protocol-v2/contracts/solidity/NFTXVaultUpgradeable.sol;nftx-protocol-v2/contracts/solidity/StakingTokenProvider.sol;nftx-protocol-v2/contracts/solidity/token/ERC20FlashMintUpgradeable.sol
+2021-05-visorfinance,3,3,6,v2,0,6,Phase 2R,contracts/contracts/factory/InstanceRegistry.sol;contracts/contracts/hypervisor/Hypervisor.sol;contracts/contracts/hypervisor/PowerSwitch.sol;contracts/contracts/visor/Visor.sol
+2021-05-yield,4,4,8,v2,0,8,Phase 2T,contracts/Cauldron.sol;contracts/FYToken.sol;contracts/yieldspace/Pool.sol;contracts/yieldspace/YieldMath.sol
+2021-06-pooltogether,6,4,10,v2,0,10,Phase 2S,contracts/PrizePool.sol;contracts/Ticket.sol;contracts/yield-source/BadgerYieldSource.sol;contracts/yield-source/IdleYieldSource.sol;contracts/yield-source/YearnV2YieldSource.sol
+2021-06-realitycards,4,4,8,v2,0,8,Phase 2Q,contracts/RCFactory.sol;contracts/RCMarket.sol;contracts/RCTreasury.sol
+2021-07-sherlock,4,3,7,v2,0,7,Phase 2S,contracts/facets/Gov.sol;contracts/facets/Payout.sol;contracts/facets/PoolBase.sol;contracts/libraries/LibPool.sol
+2021-08-notional,4,4,8,v2,0,8,Phase 2Q,contracts/external/Views.sol;contracts/external/actions/nTokenAction.sol;contracts/external/adapters/CompoundToNotionalV2.sol;contracts/external/adapters/nTokenERC20Proxy.sol
+2022-01-behodler,4,4,8,v2,0,8,Phase 2M,contracts/DAO/FlashGovernanceArbiter.sol;contracts/ERC677/ERC677.sol;contracts/FlanBackstop.sol;contracts/TokenProxies/RebaseProxy.sol;contracts/UniswapHelper.sol
+2022-01-elasticswap,3,4,7,v2,0,7,Phase 2M,elasticswap/src/contracts/Exchange.sol;elasticswap/src/contracts/ExchangeFactory.sol;elasticswap/src/libraries/MathLib.sol
+2022-01-insure,2,2,4,v2,0,4,Phase 2L-R,contracts/PoolTemplate.sol;contracts/Vault.sol
+2022-01-notional,4,4,8,v2,0,8,Phase 2N,contracts/TreasuryAction.sol;contracts/math/Bitmap.sol;contracts/sNOTE.sol;contracts/utils/EIP1271Wallet.sol
+2022-01-openleverage,4,5,9,v2,0,9,Phase 2N,openleverage-contracts/contracts/Airdrop.sol;openleverage-contracts/contracts/ControllerV1.sol;openleverage-contracts/contracts/OpenLevV1.sol;openleverage-contracts/contracts/OpenLevV1Lib.sol;openleverage-contracts/contracts/dex/bsc/UniV2ClassDex.sol;openleverage-contracts/contracts/gov/Timelock.sol;openleverage-contracts/contracts/liquidity/LPool.sol
+2022-01-sandclock,2,2,4,v2,0,4,Phase 2L-R,sandclock/contracts/Vault.sol
+2022-01-sherlock,4,6,10,v2,0,10,Phase 2P,contracts/Sherlock.sol;contracts/managers/AaveV2Strategy.sol;contracts/managers/SherlockProtocolManager.sol
+2022-01-timeswap,4,4,8,v2,0,8,Phase 2N,Timeswap/Timeswap-V1-Core/contracts/TimeswapPair.sol
+2022-01-trader-joe,4,3,7,v2,0,7,Phase 2N,contracts/LaunchEvent.sol;contracts/RocketJoeFactory.sol;contracts/RocketJoeStaking.sol
+2022-01-yield,4,4,8,v2,0,8,Phase 2P,contracts/ConvexStakingWrapper.sol;contracts/ConvexYieldWrapper.sol;contracts/Cvx3CrvOracle.sol;contracts/CvxMining.sol
+2022-02-aave-lens,4,4,8,v2,0,8,Phase 2N,contracts/core/LensHub.sol;contracts/core/modules/ModuleGlobals.sol;contracts/core/modules/collect/FeeCollectModule.sol;contracts/libraries/InteractionLogic.sol
+2022-02-concur,4,4,8,v2,0,8,Phase 2O,contracts/ConvexStakingWrapper.sol;contracts/MasterChef.sol;contracts/Shelter.sol;contracts/StakingRewards.sol
+2022-02-foundation,4,4,8,v2,0,8,Phase 2O,contracts/mixins/FoundationTreasuryNode.sol;contracts/mixins/NFTMarketCore.sol;contracts/mixins/NFTMarketCreators.sol;contracts/mixins/NFTMarketOffer.sol;contracts/mixins/NFTMarketPrivateSale.sol;contracts/mixins/NFTMarketReserveAuction.sol;contracts/mixins/SendValueWithFallbackWithdraw.sol
+2022-02-hubble,4,4,8,v2,0,8,Phase 2O,contracts/AMM.sol;contracts/ClearingHouse.sol;contracts/InsuranceFund.sol;contracts/Oracle.sol
+2022-02-nested,4,8,12,v2,0,12,Phase 2P,contracts/FeeSplitter.sol;contracts/NestedAsset.sol;contracts/NestedFactory.sol;contracts/NestedRecords.sol
+2022-02-redacted-cartel,4,0,4,v2,0,4,Phase 2P,contracts/BribeVault.sol;contracts/RewardDistributor.sol;contracts/ThecosomataETH.sol
+2022-02-tribe-turbo,4,2,6,v2,0,6,Phase 2P,src/TurboMaster.sol;src/TurboRouter.sol;src/TurboSafe.sol;src/modules/TurboClerk.sol
+2022-03-biconomy,4,4,8,v2,0,8,Phase 2O,contracts/hyphen/LiquidityFarming.sol;contracts/hyphen/LiquidityPool.sol;contracts/hyphen/LiquidityProviders.sol;contracts/hyphen/metatx/ERC2771Context.sol;contracts/hyphen/proxy/LiquidityPoolProxy.sol;contracts/security/Pausable.sol
+2022-04-phuture,4,4,8,v2,0,8,Phase 2O,contracts/BaseIndex.sol;contracts/ChainlinkPriceOracle.sol;contracts/IndexLogic.sol;contracts/ManagedIndexReweightingLogic.sol;contracts/PhutureIndex.sol;contracts/PhuturePriceOracle.sol;contracts/UniswapV2PriceOracle.sol
+2023-01-astaria,10,7,17,v0;v2,9,8,2023-01-astaria.json;Phase 2U,src/AstariaRouter.sol;src/ClearingHouse.sol;src/CollateralToken.sol;src/LienToken.sol;src/PublicVault.sol;src/Vault.sol
+2023-01-biconomy,2,2,4,v2,0,4,Phase 2L-R,scw-contracts/contracts/smart-contract-wallet/SmartAccount.sol
+2023-01-canto-identity,2,2,4,v2,0,4,Phase 2L-R,src/CidNFT.sol
+2023-01-popcorn,11,7,18,v0;v2,10,8,2023-01-popcorn.json;Phase 2U,src/utils/MultiRewardEscrow.sol;src/utils/MultiRewardStaking.sol;src/vault/CloneRegistry.sol;src/vault/PermissionRegistry.sol;src/vault/TemplateRegistry.sol;src/vault/Vault.sol;src/vault/VaultController.sol
+2023-01-rabbithole,5,4,9,v2,0,9,Phase 2M,quest-protocol/contracts/Erc20Quest.sol;quest-protocol/contracts/Quest.sol;quest-protocol/contracts/QuestFactory.sol;quest-protocol/contracts/RabbitHoleReceipt.sol
+2023-01-reserve,2,3,5,v2,0,5,Phase 2W,protocol/contracts/facade/FacadeAct.sol;protocol/contracts/facade/FacadeRead.sol;protocol/contracts/p1/mixins/RecollateralizationLib.sol;protocol/contracts/plugins/assets/CTokenFiatCollateral.sol
+2023-02-ethos,9,7,16,v0;v2,8,8,2023-02-ethos.json;Phase 2U,Ethos-Core/contracts/ActivePool.sol;Ethos-Core/contracts/BorrowerOperations.sol;Ethos-Core/contracts/CollateralConfig.sol;Ethos-Core/contracts/Dependencies/TellorCaller.sol;Ethos-Core/contracts/LQTY/LQTYStaking.sol;Ethos-Core/contracts/LUSDToken.sol;Ethos-Core/contracts/StabilityPool.sol;Ethos-Core/contracts/TroveManager.sol;Ethos-Vault/contracts/ReaperStrategyGranarySupplyOnly.sol;Ethos-Vault/contracts/ReaperVaultV2.sol
+2023-02-malt,4,4,8,v2,0,8,Phase 2U,contracts/Auction/Auction.sol;contracts/RewardSystem/RewardThrottle.sol;contracts/StabilityPod/StabilizerNode.sol;contracts/StabilityPod/SwingTraderManager.sol
+2023-03-aragon,1,3,4,v0,4,0,2023-03-aragon.json,packages/contracts/src/core/dao/DAO.sol
+2023-03-asymmetry,7,3,10,v0,10,0,2023-03-asymmetry.json,contracts/SafEth/SafEth.sol;contracts/SafEth/derivatives/Reth.sol;contracts/SafEth/derivatives/SfrxEth.sol;contracts/SafEth/derivatives/WstEth.sol
+2023-03-mute,3,2,5,v2,0,5,Phase 2W,contracts/amplifier/MuteAmplifier.sol;contracts/bonds/MuteBond.sol;contracts/dao/dMute.sol
+2023-04-caviar,10,3,13,v0,13,0,2023-04-caviar.json,src/Factory.sol;src/PrivatePool.sol
+2023-04-frankencoin,1,3,4,v0,4,0,2023-04-frankencoin.json,contracts/Equity.sol;contracts/Frankencoin.sol;contracts/MintingHub.sol
+2023-04-party,2,2,4,v2,0,4,Phase 2W,contracts/crowdfund/Crowdfund.sol;contracts/crowdfund/InitialETHCrowdfund.sol;contracts/party/PartyGovernance.sol
+2023-04-rubicon,1,3,4,v0,4,0,2023-04-rubicon.json,contracts/periphery/BathBuddy.sol;contracts/utilities/FeeWrapper.sol;contracts/utilities/RubiconRouter.sol
+2023-05-ajna,3,3,6,v2,0,6,Phase 2W,ajna-core/src/ERC20Pool.sol;ajna-core/src/PositionManager.sol;ajna-core/src/RewardsManager.sol
+2023-05-maia,3,3,6,v2,0,6,Phase 2W,src/erc-20/ERC20Boost.sol;src/ulysses-amm/UlyssesPool.sol;src/ulysses-omnichain/BranchPort.sol;src/uni-v3-staker/libraries/RewardMath.sol
+2023-05-venus,2,2,4,v2,0,4,Phase 2X,contracts/BaseJumpRateModelV2.sol;contracts/Comptroller.sol;contracts/Shortfall/Shortfall.sol
+2023-06-lybra,3,3,6,v2,0,6,Phase 2W,contracts/OFT/BaseOFTV2.sol;contracts/lybra/pools/base/LybraEUSDVaultBase.sol;contracts/lybra/pools/base/LybraPeUSDVaultBase.sol;contracts/lybra/token/PeUSDMainnetStableVision.sol
+2023-07-moonwell,2,2,4,v2,0,4,Phase 2W,src/core/Comptroller.sol;src/core/MErc20.sol;src/core/MToken.sol
+2023-10-nextgen,2,2,4,v2,0,4,Phase 2W,smart-contracts/AuctionDemo.sol;smart-contracts/ERC2981.sol;smart-contracts/MinterContract.sol
+2023-10-zksync,2,2,4,v2,0,4,Phase 2X,code/contracts/ethereum/contracts/bridge/L1ERC20Bridge.sol;code/contracts/ethereum/contracts/common/AllowList.sol;code/contracts/ethereum/contracts/zksync/facets/Mailbox.sol;code/contracts/ethereum/contracts/zksync/libraries/TransactionValidator.sol
+2023-11-zetachain,2,2,4,v2,0,4,Phase 2X,repos/protocol-contracts/contracts/evm/ERC20Custody.sol;repos/protocol-contracts/contracts/evm/ZetaConnector.eth.sol;repos/protocol-contracts/contracts/evm/tools/ZetaTokenConsumerUniV2.strategy.sol
+2023-12-ethereumcreditguild,2,2,4,v2,0,4,Phase 2X,src/governance/GuildGovernor.sol;src/governance/GuildVetoGovernor.sol;src/governance/ProfitManager.sol;src/tokens/ERC20RebaseDistributor.sol
+2023-12-particle,2,2,4,v2,0,4,Phase 2L-R,contracts/libraries/LiquidityAmounts.sol;contracts/protocol/ParticlePositionManager.sol
+2024-01-renft,4,4,8,v2,0,8,Phase 2M,smart-contracts/lib/seaport-core/lib/seaport-types/src/interfaces/ZoneInterface.sol;smart-contracts/src/Kernel.sol;smart-contracts/src/modules/PaymentEscrow.sol;smart-contracts/src/policies/Guard.sol;smart-contracts/src/proxy/Proxiable.sol
+2024-01-salty,4,4,8,v2,0,8,Phase 2V,src/Salt.sol;src/dao/Proposals.sol;src/price_feed/PriceAggregator.sol;src/staking/StakingRewards.sol
+2024-02-wise-lending,4,4,8,v2,0,8,Phase 2U,contracts/Babylonian.sol;contracts/DerivativeOracles/CurveUsdEthOracle.sol;contracts/DerivativeOracles/CustomOracleSetup.sol;contracts/DerivativeOracles/PendleChildLpOracle.sol;contracts/FeeManager/FeeManager.sol;contracts/PowerFarms/PendlePowerFarm/PendlePowerManager.sol;contracts/WiseCore.sol;contracts/WiseSecurity/WiseSecurityHelper.sol
+2024-03-abracadabra-money,4,4,8,v2,0,8,Phase 2V,src/blast/BlastMagicLP.sol;src/blast/BlastOnboarding.sol;src/blast/BlastOnboardingBoot.sol;src/mimswap/libraries/Math.sol;src/mimswap/periphery/Factory.sol;src/oracles/aggregators/MagicLpAggregator.sol
+2024-03-dittoeth,2,2,4,v2,0,4,Phase 2X,contracts/facets/RedemptionFacet.sol;contracts/facets/ViewFacet.sol;contracts/libraries/LibSRUtil.sol
+2024-03-revert-lend,4,4,8,v2,0,8,Phase 2V,src/InterestRateModel.sol;src/V3Oracle.sol;src/V3Vault.sol
+2024-03-taiko,4,4,8,v2,0,8,Phase 2V,packages/protocol/contracts/L1/TaikoL1.sol;packages/protocol/contracts/L1/hooks/AssignmentHook.sol;packages/protocol/contracts/L1/libs/LibProving.sol;packages/protocol/contracts/L1/provers/Guardians.sol;packages/protocol/contracts/L1/tiers/DevnetTierProvider.sol;packages/protocol/contracts/L1/tiers/TestnetTierProvider.sol;packages/protocol/contracts/L2/TaikoL2.sol;packages/protocol/contracts/team/airdrop/ERC20Airdrop2.sol
+2024-04-renzo,4,4,8,v2,0,8,Phase 2V,contracts/Bridge/xERC20/contracts/XERC20.sol;contracts/Delegation/OperatorDelegator.sol;contracts/RestakeManager.sol;contracts/Withdraw/WithdrawQueue.sol
+2024-05-olas,1,1,2,v0,2,0,2024-05-olas.json,tokenomics/contracts/staking/GnosisTargetDispenserL2.sol
+2024-05-predy,9,6,15,v0;v2,7,8,2024-05-predy.json;Phase 2T,src/PredyPool.sol;src/PriceFeed.sol;src/libraries/Perp.sol;src/libraries/Trade.sol;src/libraries/UniHelper.sol;src/libraries/logic/AddPairLogic.sol;src/libraries/math/Math.sol
+2024-06-badger,1,1,2,v0,2,0,2024-06-badger.json,ebtc-zap-router/src/EbtcZapRouter.sol;ebtc-zap-router/src/ZapRouterBase.sol
+2024-06-krystal-defi,5,5,10,v0;v2,2,8,2024-06-krystal-defi.json;Phase 2T,src/Common.sol;src/EIP712.sol;src/V3Automation.sol
+2024-06-thorchain,1,1,2,v0,2,0,2024-06-thorchain.json,ethereum/contracts/THORChain_Router.sol
+2024-06-vultisig,4,1,5,v0,5,0,2024-06-vultisig.json,hardhat-vultisig/contracts/Whitelist.sol;src/ILOManager.sol;src/ILOPool.sol
+2024-07-karak,7,5,12,v0;v2,4,8,2024-07-karak.json;Phase 2T,src/Core.sol;src/NativeVault.sol;src/Vault.sol;src/entities/Pauser.sol;src/entities/SlasherLib.sol;src/utils/CommonUtils.sol
+2024-08-axelar-network,2,3,5,v2,0,5,Phase 2R,interchain-token-service/contracts/InterchainTokenFactory.sol;interchain-token-service/contracts/InterchainTokenService.sol;interchain-token-service/contracts/TokenHandler.sol
+2024-08-basin,1,3,4,v2,0,4,Phase 2S,src/Well.sol;src/functions/Stable2.sol
+2024-08-chakra,4,4,8,v2,0,8,Phase 2M,solidity/handler/contracts/ChakraSettlementHandler.sol;solidity/handler/contracts/ChakraToken.sol;solidity/handler/contracts/SettlementSignatureVerifier.sol;solidity/handler/contracts/TokenRoles.sol;solidity/settlement/contracts/ChakraSettlement.sol
+2024-08-phi,8,2,10,v0,10,0,2024-08-phi.json,src/Cred.sol;src/PhiFactory.sol
+2024-08-wildcat,8,6,14,v0;v2,6,8,2024-08-wildcat.json;Phase 2T,src/WildcatSanctionsEscrow.sol;src/WildcatSanctionsSentinel.sol;src/access/AccessControlHooks.sol;src/access/FixedTermLoanHooks.sol;src/market/WildcatMarket.sol;src/market/WildcatMarketBase.sol;src/market/WildcatMarketConfig.sol;src/market/WildcatMarketWithdrawals.sol
+2024-09-fenix-finance,4,4,8,v2,0,8,Phase 2Q,contracts/bribes/BribeFactoryUpgradeable.sol;contracts/bribes/BribeUpgradeable.sol;contracts/core/VeBoostUpgradeable.sol;contracts/core/VoterUpgradeableV2.sol;contracts/core/VotingEscrowUpgradeableV2.sol
+2024-10-kleidi,3,3,6,v2,0,6,Phase 2R,src/BytesHelper.sol;src/Timelock.sol
+2024-10-loopfi,4,4,8,v2,0,8,Phase 2Q,src/CDPVault.sol;src/Flashlender.sol;src/PoolV3.sol;src/VaultRegistry.sol;src/pendle-rewards/RewardManager.sol;src/proxy/PositionAction.sol;src/proxy/PositionAction4626.sol
+2024-10-ramses-exchange,2,3,5,v2,0,5,Phase 2R,contracts/CL/core/RamsesV3Factory.sol;contracts/CL/core/RamsesV3Pool.sol;contracts/CL/core/libraries/Oracle.sol
+2024-11-ethena-labs,2,2,4,v2,0,4,Phase 2R,contracts/ustb/UStb.sol;contracts/ustb/UStbMinting.sol

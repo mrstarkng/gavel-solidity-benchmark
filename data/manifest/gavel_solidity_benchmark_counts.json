@@ -1,0 +1,30 @@
+{
+  "dataset_id": "lbe-curated-unified",
+  "dataset_version": "freeze-candidate-20260628-phase2z",
+  "safe_rows": 276,
+  "synthetic_fixture_excluded": true,
+  "total_rows": 582,
+  "unified_unique_projects": 81,
+  "v0_line_range_missing_count": 0,
+  "v0_line_range_missing_row_ids": [],
+  "v0_phi_safe1_repair_applied": true,
+  "v0_safe_rows": 36,
+  "v0_total_rows": 102,
+  "v0_unique_projects": 17,
+  "v0_v2_overlap_project_count": 7,
+  "v0_v2_overlap_projects": [
+    "2023-01-astaria",
+    "2023-01-popcorn",
+    "2023-02-ethos",
+    "2024-05-predy",
+    "2024-06-krystal-defi",
+    "2024-07-karak",
+    "2024-08-wildcat"
+  ],
+  "v0_vuln_rows": 66,
+  "v2_safe_rows": 240,
+  "v2_total_rows": 480,
+  "v2_unique_projects": 71,
+  "v2_vuln_rows": 240,
+  "vuln_rows": 306
+}
