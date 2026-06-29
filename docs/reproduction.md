@@ -1,6 +1,6 @@
 # Reproducing the Full Benchmark Sources
 
-This repository publishes the benchmark labels, metadata, splits, and validation tools. It does not vendor Solidity source repositories or upstream Code4rena contest repositories.
+This repository publishes the benchmark labels, metadata, splits, and validation tools for a project-grounded function-level benchmark. It does not vendor Solidity source repositories or upstream Code4rena contest repositories.
 
 The source lockfile is:
 
@@ -8,7 +8,7 @@ The source lockfile is:
 data/sources/sources.lock.json
 ```
 
-It lists every benchmark project, the upstream repository URL when recoverable, the pinned local git commit when available, the source files referenced by benchmark rows, and the judged report files used as evidence.
+It lists every benchmark project context, the upstream repository URL when recoverable, the pinned local git commit when available, the source files referenced by function-level benchmark rows, and the judged report files used as evidence.
 
 ## External Workflow
 
@@ -63,7 +63,7 @@ Label reproduction means verifying the manifest structure and counts:
 python3 scripts/validate_manifest.py
 ```
 
-Full experiment-input reproduction additionally fetches Solidity source repositories and validates that every benchmark row still maps to the expected file, contract, function, and line range:
+Full experiment-input reproduction additionally fetches Solidity source repositories to recreate project/source context and validates that every function-level benchmark row still maps to the expected file, contract, function, and line range:
 
 ```bash
 python3 scripts/fetch_sources.py --output solidity_sources

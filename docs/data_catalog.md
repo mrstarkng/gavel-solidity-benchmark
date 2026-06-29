@@ -1,16 +1,16 @@
 # Data Catalog
 
-This catalog describes the repository artifacts and whether each file is ground truth, metadata, split policy, provenance, validation tooling, or documentation.
+This catalog describes the repository artifacts and whether each file is ground truth, metadata, split policy, provenance, validation tooling, or documentation. The benchmark is project-grounded and function-level: project files provide source context, while manifest rows are the scoring units.
 
 ## Ground Truth
 
-- `data/manifest/gavel_solidity_benchmark_manifest.jsonl`: Primary benchmark labels. One JSON object per row.
+- `data/manifest/gavel_solidity_benchmark_manifest.jsonl`: Primary function-level benchmark labels. One JSON object per contract/function row.
 - `data/manifest/gavel_solidity_benchmark_manifest.csv`: CSV mirror of the primary manifest for inspection.
 
 ## Metadata
 
 - `data/manifest/gavel_solidity_benchmark_counts.json`: Expected row and project counts.
-- `data/manifest/gavel_solidity_benchmark_project_index.csv`: Project-level row counts and source coverage.
+- `data/manifest/gavel_solidity_benchmark_project_index.csv`: Per-project row counts and source-context coverage.
 - `data/manifest/gavel_solidity_benchmark_source_batch_index.csv`: Accepted curation batch provenance.
 - `data/manifest/gavel_solidity_benchmark_spotcheck_queue.csv`: Recommended rows for independent audit.
 

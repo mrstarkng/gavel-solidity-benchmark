@@ -1,6 +1,6 @@
 # Creation Methodology
 
-GAVEL Solidity Benchmark was created with a human-in-the-loop curation and annotation workflow. The goal was to build a source-grounded benchmark where each accepted label can be traced to public audit evidence and concrete Solidity code.
+GAVEL Solidity Benchmark was created with a human-in-the-loop curation and annotation workflow. The goal was to build a project-grounded function-level benchmark where each accepted contract/function-row label can be traced to public audit evidence and concrete Solidity code.
 
 ## Source Collection
 
@@ -13,7 +13,7 @@ Projects were excluded or deferred when they were source-only, report-only, non-
 
 ## Vulnerable Row Annotation
 
-For each vulnerable candidate, annotators reviewed the judged finding and source code together. A vulnerable row was accepted only when the issue could be mapped to:
+For each vulnerable candidate, annotators reviewed the judged finding and source code together at the function-row level. A vulnerable row was accepted only when the issue could be mapped to:
 
 - a project slug;
 - a Solidity source file;
@@ -28,7 +28,7 @@ Rows with unknown functions, fake line ranges, placeholder categories, placehold
 
 ## Safe Row Annotation
 
-Safe rows were selected as negative controls from production Solidity code in audited projects. A safe row was accepted only when the selected function:
+Safe rows were selected as function-level negative controls from production Solidity code in audited projects. A safe row was accepted only when the selected function:
 
 - exists in the source snapshot;
 - has an exact contract, function, and line range;
@@ -39,7 +39,7 @@ Safe rows were selected as negative controls from production Solidity code in au
 - is not directly named in judged finding text;
 - has a specific function-level selection reason.
 
-Safe rows are not claims that a whole contract or project is vulnerability-free. They are benchmark negative controls at the selected function scope.
+Safe rows are not claims that a whole contract or project is vulnerability-free. They are benchmark negative controls for the selected function only.
 
 ## Validation
 
@@ -61,4 +61,4 @@ All benchmark project slugs are listed in `data/splits/kb_exclude_slugs.txt`. Ev
 
 ## Limitations
 
-The benchmark is curated for source-grounded Solidity vulnerability detection. It should not be interpreted as a complete census of all bugs in the included projects. Safe rows are scoped negative controls, not whole-project safety proofs.
+The benchmark is curated for source-grounded Solidity vulnerability detection. It should not be interpreted as a complete census of all bugs in the included projects or as a measure of full-project audit completeness. Safe rows are scoped negative controls for selected functions, not project or contract safety proofs.

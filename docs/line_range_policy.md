@@ -1,5 +1,7 @@
 # LBE-Curated Unified Line Range Policy
 
+Line ranges support function-level labels in a project-grounded benchmark. Each accepted row points to the source span for one selected contract/function, not to an entire project audit.
+
 ## V2 rows
 All accepted v2 gold rows carry exact `original_line_start` and `original_line_end` values from manual curation. These values are preserved.
 

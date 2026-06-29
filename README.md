@@ -1,8 +1,8 @@
 # GAVEL Solidity Benchmark
 
-GAVEL Solidity Benchmark is a human-curated benchmark for evaluating Solidity smart-contract vulnerability detection. The dataset is source-grounded: each accepted row links a label to a project, Solidity source file, contract, function, and source line range.
+GAVEL Solidity Benchmark is a human-curated, project-grounded, function-level benchmark for evaluating Solidity smart-contract vulnerability detection. The dataset is source-grounded: each accepted row links a label to a real audited project, Solidity source file, contract, function, and source line range.
 
-The benchmark was built from public Code4rena audit reports and corresponding Solidity repositories. It contains both real vulnerable functions and safe production-code controls for evaluating whether a detector can identify vulnerable behavior and support its answer with source-level evidence.
+The benchmark was built from public Code4rena audit reports and corresponding Solidity repositories. It contains both real vulnerable functions and safe production-code controls for evaluating whether a detector can classify contract/function-level rows and support its answer with source-level evidence.
 
 ## Dataset Summary
 
@@ -16,6 +16,12 @@ The benchmark was built from public Code4rena audit reports and corresponding So
 | v2 gold expansion rows | 480 |
 
 The current release is a freeze candidate assembled from the accepted v0 seed and the v2 gold expansion.
+
+This benchmark is project-grounded but function-level: rows are drawn from real audited Solidity projects, but each ground-truth label applies to one contract/function row, not to an entire project audit. The 81 unique projects are source contexts and provenance groups; the 582 rows are the function-level labels and scoring units.
+
+## What This Benchmark Does Not Measure
+
+The benchmark does not measure full-project audit completeness. It does not claim that safe rows prove an entire contract or project is safe. Safe rows are scoped negative controls at the selected function level.
 
 ## Repository Layout
 
@@ -63,6 +69,8 @@ Each JSONL row represents one benchmark label:
 
 - `row_type = vuln`: a real vulnerability supported by judged Code4rena report evidence.
 - `row_type = safe`: a production Solidity function selected as a negative control.
+
+The `row_id` identifies the scoring unit. The `project_slug` preserves project/source context and should not be interpreted as the unit of ground truth.
 
 Important fields include:
 

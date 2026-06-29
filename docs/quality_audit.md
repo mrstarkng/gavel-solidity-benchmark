@@ -1,5 +1,7 @@
 # LBE-Curated Unified Quality Audit
 
+This audit covers a project-grounded function-level benchmark. The audited project set provides source context and leakage-exclusion scope; the manifest rows are the ground-truth and scoring units.
+
 ## Validation result
 PASS
 

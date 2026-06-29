@@ -6,7 +6,18 @@ GAVEL Solidity Benchmark
 
 ## Purpose
 
-The dataset supports evaluation of Solidity vulnerability detection systems that must identify vulnerable or safe functions and ground their predictions in source-level evidence.
+The dataset supports evaluation of Solidity vulnerability detection systems that must identify vulnerable or safe functions and ground their predictions in source-level evidence. It is a project-grounded function-level benchmark: rows come from real audited Solidity projects, but each label applies to one contract/function row.
+
+## Benchmark Scope
+
+| Field | Description |
+|---|---|
+| Benchmark type | Project-grounded function-level |
+| Ground-truth unit | Contract/function row |
+| Source context | Audited Solidity project |
+| Not measured | Full-project audit completeness |
+
+Project/source context is preserved through `project_slug`, `source_path`, report evidence, and line ranges. The scoring unit is the manifest row, not the project.
 
 ## Data Sources
 
@@ -48,4 +59,4 @@ This dataset does not claim to cover every vulnerability type, every Solidity pr
 
 ## Known Caveats
 
-Safe rows are function-level negative controls. They should not be interpreted as proof that the surrounding contract or project is safe.
+This benchmark does not measure full-project audit completeness. Safe rows are function-level negative controls. They should not be interpreted as proof that the surrounding contract or project is safe.
